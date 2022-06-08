@@ -1,0 +1,22 @@
+body {
+    background-color: #0A192F;
+    font-family: monospace;
+    color: #8892B0;
+}
+
+#ola {
+    color: #64ffda;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px 0px 30px 4px;
+}
+
+#nome {
+    color: #CCD6F6;
+    font-size: 40px, 8vw, 80px;
+}
+
+#dev {
+    color: #8892B0;
+    font-size: 15px;
+}
