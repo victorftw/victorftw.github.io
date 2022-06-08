@@ -20,3 +20,7 @@ body {
     color: #8892B0;
     font-size: 15px;
 }
+
+a {
+    text-decoration: none;
+}
