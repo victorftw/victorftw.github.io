@@ -14,6 +14,7 @@ div.conteudo {
 }
 
 div.info {
+    font-family: 'Pangolin', cursive;
     text-align: left;
     margin-top: 400px;
 }
@@ -21,31 +22,72 @@ div.info {
 div.info h1 {
     color: #48CBE9;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: bold;
     margin-bottom: 0px;
 }
 
 div.info h2 {
     color: #ED2274;
-    font-family: monospace;
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 70px;
     margin: 0px;
 }
 
 div.info h3 {
     color: #48CBE9;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px;
 }
 
 div.info p {
     margin-top: 10px;
+    font-style: italic;
 }
 
 a {
     text-decoration: none;
 }
+
+.banner {
+    margin: 0;
+    padding: 0;
+}
+
+div.banner {
+    margin-top: 0;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: black;
+    /* position: fixed; */
+}
+
+.menu {
+    padding-bottom: 15px;
+    margin: 0;
+    display: inline-block;
+}
+
+.menu li:nth-of-type(1) {
+    margin-left: 35%;
+    position: fixed;
+    border: 0;
+    padding: 0;
+}
+
+.menu li:nth-of-type(2) {
+    margin-left: 40%;
+    position: fixed;
+    border: 0;
+    padding: 0;
+}
+
+.menu li:nth-of-type(3) {
+    margin-left: 47%;
+    position: fixed;
+    border: 0;
+    padding: 0;
+}
+
 
 #foto {
     border-radius: 50%;
