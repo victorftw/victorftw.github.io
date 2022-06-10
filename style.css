@@ -1,24 +1,46 @@
+* {
+    border: 0;
+    padding: 0;
+}
 body {
     background-color: #0A192F;
     font-family: 'Nunito Sans', sans-serif;
     color: #8892B0;
 }
 
-#ola {
-    color: #64ffda;
-    font-size: 13px;
-    font-weight: 400;
-    margin: 0px 0px 30px 4px;
+div.conteudo {
+    width: 55%;
+    margin: 0 auto;
 }
 
-#nome {
-    color: #CCD6F6;
-    font-size: 40px, 8vw, 80px;
+div.info {
+    text-align: left;
+    margin-top: 400px;
 }
 
-#dev {
-    color: #8892B0;
+div.info h1 {
+    color: #48CBE9;
     font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+div.info h2 {
+    color: #ED2274;
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+div.info h3 {
+    color: #48CBE9;
+    font-size: 30px;
+    margin: 0px;
+}
+
+div.info p {
+    margin-top: 10px;
 }
 
 a {
